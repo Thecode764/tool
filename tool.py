@@ -73,4 +73,4 @@ if tool == "9":
     os.system("sudo apt-get install zsh")
     os.system("wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh")
 if tool == "10":
-    os.system("python2 katoolin.py")
+    os.system("sudo python2 katoolin.py")
