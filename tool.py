@@ -10,6 +10,7 @@ print("6(get system name")
 print("7(Create File with vscode")
 print("8(Install Windows Powershell")
 print("9(Install Zsh and Oh My Zsh")
+print("10(Install Katoolin")
 tool = input("Select tool number:")
 if tool == "1":
     folder = input("Enter Folder Name:")
@@ -71,3 +72,7 @@ if tool == "8":
 if tool == "9":
     os.system("sudo apt-get install zsh")
     os.system("wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh")
+if tool == "10":
+    os.system("git clone https://github.com/LionSec/katoolin")
+    os.system("cd katoolin")
+    os.system("sudo python2 katoolin")
